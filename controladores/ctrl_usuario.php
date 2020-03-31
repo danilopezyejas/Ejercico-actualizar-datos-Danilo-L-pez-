@@ -211,7 +211,7 @@ function editar()
       }
     }
   }
-
+// Actualizo los datos de la sesion
   $nombre = Session::get("usuario_nombre");
   $apellido = Session::get("usuario_apellido");
   $email = Session::get("usuario_email");
